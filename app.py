@@ -43,7 +43,7 @@ def handle_message(event):
     if msg in ['hi', 'Hi', 'hello', 'Hello']:
         r = '嗨!'
     elif msg == '天氣如何':
-        r = '請看氣象報告'
+        r = '請看氣象報告:https://www.cwb.gov.tw/V8/C/'
     elif msg == '你是誰':
         r = '我是機器人'
     elif '訂位' in msg:
